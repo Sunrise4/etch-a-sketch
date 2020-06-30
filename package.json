@@ -2,7 +2,7 @@
   "name": "etch-a-sketch",
   "version": "1.0.0",
   "description": "Create a grid of size specified by the user. Change box color as mouse cursor hovers over it.",
-  "main": "index.js",
+  "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
