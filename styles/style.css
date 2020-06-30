@@ -1,0 +1,30 @@
+:root {
+  --grid-cols: 0;
+  --grid-rows: 0;
+}
+
+body {
+  background-color: rgb(214, 214, 214);
+}
+
+#grid-container {
+  display: grid;
+  height: 720px;
+  width: 720px;
+  background-color: rgb(189, 231, 255);
+  border: 5px solid black;
+  margin: 50px auto;
+  grid-template-rows: repeat(var(--grid-rows), 1fr);
+  grid-template-columns: repeat(var(--grid-cols), 1fr);
+}
+
+.grid-item {
+  border: 1px solid #ddd;
+  text-align: center;
+  background-color: rgb(0, 0, 0);
+}
+
+#new-grid {
+  display: block;
+  margin: 50px auto;
+}
